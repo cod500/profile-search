@@ -1,0 +1,55 @@
+body {
+  background: #00247e;
+  color: #fff;
+}
+
+.profile-name,
+.profile-delete,
+.card-image {
+  align-self: center;
+}
+
+.profile-delete {
+  margin-right: 5px;
+}
+
+.profile-card {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin: 10px 0;
+  border: solid 1px #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  min-height: 120px;
+}
+
+.profile-name {
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  max-width: 200px;
+}
+
+.profile-name p,
+.profile-name h4 {
+  color: #fff;
+  align-self: center;
+}
+
+.profile-card img {
+  width: 55px;
+  border-radius: 50%;
+  margin-left: 5px;
+  align-self: flex-end;
+}
+
+.trash-icon {
+  cursor: pointer;
+}
+
+.search {
+  width: 40%;
+}
